@@ -1,27 +1,3 @@
--- Aimlock </>
-
-local Camera = workspace.CurrentCamera
-
-_G.CircleSides = 100
-_G.CircleColor = Color3.fromRGB(65, 105, 225)
-_G.CircleTransparency = 0.5
-_G.CircleRadius = 100
-_G.CircleFilled = false
-_G.CircleVisible = true
-_G.CircleThickness = 0
-
-local FOVCircle = Drawing.new("Circle")
-
-FOVCircle.Position = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
-FOVCircle.Radius = _G.CircleRadius
-FOVCircle.Filled = _G.CircleFilled
-FOVCircle.Color = _G.CircleColor
-FOVCircle.Visible = _G.CircleVisible
-FOVCircle.Radius = _G.CircleRadius
-FOVCircle.Transparency = _G.CircleTransparency
-FOVCircle.NumSides = _G.CircleSides
-FOVCircle.Thickness = _G.CircleThickness
-
 local MouseLock = {
       Settings = {
       Enabled = false,
