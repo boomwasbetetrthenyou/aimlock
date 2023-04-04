@@ -5,7 +5,7 @@ _G.CircleColor = Color3.fromRGB(65, 105, 225)
 _G.CircleTransparency = 0.5
 _G.CircleRadius = 100
 _G.CircleFilled = false
-_G.CircleVisible = false
+_G.CircleVisible = true
 _G.CircleThickness = 0
 
 local FOVCircle = Drawing.new("Circle")
@@ -24,7 +24,7 @@ FOVCircle.Thickness = _G.CircleThickness
 
 local MouseLock = {
       Settings = {
-      Enabled = false,
+      Enabled = true,
       Key = 'e',
       Prediction = 10000000,
       AimPart = 'Head'
