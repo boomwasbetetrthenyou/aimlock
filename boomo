@@ -25,9 +25,9 @@ FOVCircle.Thickness = _G.CircleThickness
 local MouseLock = {
       Settings = {
       Enabled = false,
-local Key = 'e',
-local Prediction = 10000,
-        AimPart = 'Head'
+      Key = 'e',
+      Prediction = 10000000,
+      AimPart = 'Head'
     }
 }
 
